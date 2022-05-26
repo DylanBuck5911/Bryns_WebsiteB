@@ -13,7 +13,7 @@
 <html lang="en">
 
 <body>
-	<nav>
+<nav>
 		<ul class="navbar">
 			<li id="home"><a href="index.php">HOME</a></li>
 			<li id="gallery"><a href="gallery.php">GALLERY</a></li>
