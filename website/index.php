@@ -23,8 +23,6 @@
 			<li id="artists"><a href="aboutme.html">ARTISTS</a></li>
 			<li id="submit"><a href="submit.html">SUBMIT YOUR ART</a></li>
 			<li id="contactus"><a href="contactus.html">CONTACT US</a></li>
-			<li id="WIPpage"><a href="submit.html">SUBMIT YOUR ART</a></li>
-			<li id="database"><a href="database.html">CONTACT US</a></li>
 		</ul>
 	</nav>
 	<br />
