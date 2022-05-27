@@ -7,11 +7,11 @@
 <header>
 	<meta charset="UTF-8" />
 	<link href="style.css" rel="stylesheet">
+	<?php $database = require SQLite3('1621ICT.db');
+	?>
 	<hgroup>
 		<h1>m o n o c h r o m e</h1>
 		<p id="subtletag">by Miles Enright</p>
-		<?php $database = new SQLite3('1621ICT.db');
-		?>
 	</hgroup>
 </header>
 
