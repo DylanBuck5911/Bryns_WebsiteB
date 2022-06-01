@@ -1,37 +1,32 @@
 <DOCTYPE html>
 
-<title>Website WIP</title>
+<title>Monochrome by M. Enright.</title>
 
 <header>
-	<meta charset="UTF-8" />
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Digital Artwork">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
+    <meta name="author" content="Bryn Hancock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="style.css" rel="stylesheet">
 	<hgroup>
-		<h1>SUBMIT YOUR OWN ARTWORK</h1>
+		<h1>CONTACT ME</h1>
 	</hgroup>
 </header>
 
 <html lang="en">
 
 <body>
-	<nav>
+    <nav>
 		<ul class="navbar">
 			<li id="home"><a href="index.php">HOME</a></li>
 			<li id="gallery"><a href="gallery.php">GALLERY</a></li>
-			<li id="artists"><a href="aboutme.php">ARTISTS</a></li>
-			<li id="submit"><a href="submit.php">SUBMIT YOUR ART</a></li>
-			<li id="contactus"><a href="contactus.php">CONTACT US</a></li>
-			<li id="WIPpage"><a href="extrapage.php">6TH PAGE</a></li>
+			<li id="artists"><a href="aboutme.php">ABOUT ME</a></li>
+			<li id="clients"><a href="clients.php">CLIENTS</a></li>
+            <li id="contactus"><a href="contactus.php">CONTACT ME</a></li>
 		</ul>
 	</nav>
-	<br />
-	<p>A collection of digital artwork</p>
-	<br />
-	<br />
-	<img src=".\images\drawing.jpg" width="420px" />
-	<br />
-	<br />
+    <p>Thanks for expressing interest. Ill reach out shortly!</p>
 </body>
 
 </html>
-
-<footer>Copyright 2022 Bryn Hancock</footer>

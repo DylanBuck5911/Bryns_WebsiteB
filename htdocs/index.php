@@ -5,13 +5,18 @@
 <title>Monochrome by M. Enright</title>
 
 <header>
-	<meta charset="UTF-8" />
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Digital Artwork">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
+    <meta name="author" content="Bryn Hancock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="style.css" rel="stylesheet">
-	<?php $database = require SQLite3('1621ICT.db');
-	?>
+
+	<?php $database = new SQLite3('1621ICT.db');?>
+	
 	<hgroup>
-		<h1>m o n o c h r o m e</h1>
-		<p id="subtletag">by Miles Enright</p>
+		<h1><?php echo "m o n o c h r o m e" ?></h1>
+		<p id="subtletag"><?php echo "A Collection of Digital Artwork" ?></p>
 	</hgroup>
 </header>
 
@@ -20,14 +25,13 @@
 		<ul class="navbar">
 			<li id="home"><a href="index.php">HOME</a></li>
 			<li id="gallery"><a href="gallery.php">GALLERY</a></li>
-			<li id="artists"><a href="aboutme.php">ARTISTS</a></li>
-			<li id="submit"><a href="submit.php">SUBMIT YOUR ART</a></li>
-			<li id="contactus"><a href="contactus.php">CONTACT US</a></li>
-			<li id="WIPpage"><a href="extrapage.php">6TH PAGE</a></li>
+			<li id="artists"><a href="aboutme.php">ABOUT ME</a></li>
+			<li id="clients"><a href="clients.php">CLIENTS</a></li>
+            <li id="contactus"><a href="contactus.php">CONTACT ME</a></li>
 		</ul>
 	</nav>
 	<br />
-	<p>A collection of digital artwork</p>
+	<p>by Miles Enright.</p>
 	<br />
 	<br />
 	<img src=".\images\drawing.jpg" width="420px" />
